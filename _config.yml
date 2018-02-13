@@ -1,0 +1,7 @@
+# basic configuration
+baseurl:
+
+ga_tracking_code: 
+
+# Some files we need to exclude, so Github can build the site
+exclude: [Gemfile, Gemfile.lock, README.md]
