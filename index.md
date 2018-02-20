@@ -8,7 +8,7 @@ Hi there!
  
 We’re hosting a 2-day gathering of learning circle practitioners in Kansas City on May 17-18, 2018 - up to join?
  
-Starting with Chicago Public Library in 2015, learning circles are now being run in 27 public library systems ran learning circles across the United States and Canada and 13 branches of the Kenya National Library Service. Wow! That’s a lot of learning! More than 1000 study group meetings actually. However, except for a few chance encounters, we’ve never been able to meet up in person to share our experiences and plans.
+Starting with Chicago Public Library in 2015, learning circles are now being run in 27 public library systems across the United States and Canada and 13 branches of the Kenya National Library Service. Wow! That’s a lot of learning! More than 1000 study group meetings actually. However, except for a few chance encounters, we’ve never been able to meet up in person to share our experiences and plans.
  
 With the support of the Institute of Museum and Library Services, P2PU and Kansas City Public Library will be hosting a first-of-its-kind gathering of learning circle practitioners and peer learning advocates.
  
