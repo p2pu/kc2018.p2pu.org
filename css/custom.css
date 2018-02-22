@@ -1,15 +1,20 @@
-/*gray-darker:           #515665;
+/*
+
+COLOURS
+
+$gray-darker:           #515665;
 $gray-dark:             #707782;
 $gray:                  #AAB0BF;
 $gray-light:            #D3D8E6;
 $gray-lighter:          #F3F4F8;
 $gray-snow:             #FCFCFC;
 
-$brand-primary:         $gray-darker;
-$brand-success:         #B7D500;
-$brand-info:            #05C6B4;
-$brand-warning:         #FFBC1A;
-$brand-danger:          #FC7100;*/
+$p2pu-green:            #B7D500;
+$p2pu-blue:             #05C6B4;
+$p2pu-yellow:           #FFBC1A;
+$p2pu-orange:           #FC7100;
+
+*/
 
 
 @font-face {
@@ -84,19 +89,32 @@ section:nth-of-type(2n) {
 }
 
 section:nth-of-type(4n+2) {
-  background-color: rgba(255,188,26,0.15); /*yellow*/
+  background-color: rgba(255,188,26,0.15);
 }
 
 section:nth-of-type(4n+4) {
-  background-color: rgba(183,213,0,0.15); /*green*/
+  background-color: rgba(183,213,0,0.15);
 }
 
 section:nth-of-type(4n+6) {
-  background-color: rgba(5,198,180,0.15); /*blue*/
+  background-color: rgba(5,198,180,0.15);
 }
 
 section:nth-of-type(4n+8) {
-  background-color: rgba(252,113,0,0.15); /*orange*/
+  background-color: rgba(252,113,0,0.15);
+}
+
+header.page-title {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+header.page-title h1 {
+  margin-bottom: 0;
 }
 
 .content {
@@ -118,6 +136,18 @@ section:nth-of-type(4n+8) {
 .bold {
   font-family: 'Open Sans Bold', 'Helvetica', sans-serif;
   font-weight: bold;
+}
+
+#top-nav.navbar-light .navbar-nav .nav-link {
+  color: #707782;
+}
+
+#top-nav.navbar-light .navbar-nav .nav-link:hover {
+  color: #515665;
+}
+
+#top-nav.navbar-light .navbar-nav .nav-link:active {
+  color: #FC7100;
 }
 
 #page-header {
@@ -208,7 +238,7 @@ section:nth-of-type(4n+8) {
 }
 
 #faq .faq-container:nth-of-type(4n+1) .question {
-  border-bottom: 4px solid #FFBC1A; /*yellow*/
+  border-bottom: 4px solid #FFBC1A;
 }
 
 #faq .faq-container:nth-of-type(4n+2) .question {
@@ -365,19 +395,6 @@ section:nth-of-type(4n+8) {
 
 #footer .social .content div {
   text-align: left;
-}
-
-header.page-title {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-header.page-title h1 {
-  margin-bottom: 0;
 }
 
 .p2pu-btn {
