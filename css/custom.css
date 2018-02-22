@@ -80,6 +80,12 @@ section:nth-of-type(2n) {
   max-width: 100%;
 }
 
+.minicaps {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 #details .itinerary {
   padding-top: 1rem;
   padding-bottom: 1rem;
