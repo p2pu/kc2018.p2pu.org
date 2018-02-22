@@ -6,7 +6,7 @@
     <title>P2PU | Kansas City 2018</title>
     <meta name="description" content="P2PU conference in Kansas City 2018">
     <!-- bootstrap.min.css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <!-- font-awesome -->
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <!-- custom.css -->
@@ -21,31 +21,31 @@
     <meta name="theme-color" content="#008080">
 </head>
 
-<body data-spy="scroll" data-target=".navbar">
+<body data-spy="scroll" data-target="#navbarNavAltMarkup" data-offset="70">
 
-    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top" id="top-nav">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="#">
         <img src="img/p2pu-logo.png" alt="P2PU logo">
       </a>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link minicaps active" href="#">Welcome <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link minicaps" href="#">Goals</a>
-          <a class="nav-item nav-link minicaps" href="#">Location & Details</a>
-          <a class="nav-item nav-link minicaps" href="#">Guest List</a>
-          <a class="nav-item nav-link minicaps" href="#">Lodging</a>
-          <a class="nav-item nav-link minicaps" href="#">Registration</a>
-          <a class="nav-item nav-link minicaps" href="#">FAQ</a>
-        </div>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <ul class="nav navbar-nav">
+          <a class="nav-item nav-link minicaps data-scroll" href="#intro">Welcome</a>
+          <a class="nav-item nav-link minicaps data-scroll" href="#goals">Goals</a>
+          <a class="nav-item nav-link minicaps data-scroll" href="#details">Location & Details</a>
+          <a class="nav-item nav-link minicaps data-scroll" href="#guest-list">Guest List</a>
+          <a class="nav-item nav-link minicaps data-scroll" href="#lodging">Lodging</a>
+          <a class="nav-item nav-link minicaps data-scroll" href="#registration">Registration</a>
+          <a class="nav-item nav-link minicaps data-scroll" href="#faq">FAQ</a>
+        </ul>
       </div>
     </nav>
 
 
     <section id="intro">
-      <div class="content">
+      <div class="content" data-aos="slide-up">
         <h2>Hi there!</h2>
 
         <p>We’re hosting a 2-day gathering of learning circle practitioners in Kansas City on May 17-18, 2018 - up to join?</p>
@@ -57,7 +57,7 @@
     </section>
 
     <section id="goals">
-      <div class="content">
+      <div class="content" data-aos="slide-up">
         <h2>Goals</h2>
         <p>You can’t run a learning circle without setting goals, right? Together, our meeting aims to achieve the following:</p>
         <ul>
@@ -71,12 +71,12 @@
     </section>
 
     <section id="details">
-      <div class="content">
+      <div class="content" data-aos="slide-up">
         <h2>Location and Details</h2>
 
         <p>The event will be hosted at the Kansas City Public Library Main Branch located at … in Kansas City, Missouri, USA. The program will begin with an optional dinner on Wednesday May 16th, with the official program beginning on the morning of Thursday May 17th ending in the late morning of Friday May 18th.</p>
 
-        <div class="itinerary row">
+        <div class="itinerary">
           <div class="col-md-4">
               <div class="date">Wednesday, May 16</div>
               <div>Welcome Kansas City BBQ Dinner</div>
@@ -94,7 +94,7 @@
     </section>
 
     <section id="guest-list">
-      <div class="content">
+      <div class="content" data-aos="slide-up">
         <h2>Guest List</h2>
         <p>We welcome attendance from all learning circle practitioners, facilitators, P2PU friends and supporters, librarians and educators, and those committed to peer, community-based, equitable and open learning. Our aim is for this to be an intimate and interactive event that will host between 30 – 40 participants.</p>
         <p>Confirmed attendance includes the entire P2PU Staff Nico, Dirk, and Grif (we live in three different countries – so this is a rare event!), learning circle facilitators and librarians from Chicago Public Library, Wichita Public Library, Tampa-Hillsborough Public Library, Twin City Public Library, Charlotte Mecklenburg Public Library, and of course let’s not forget Kansas City Public Library too. We also plan to host long-time P2PU advocates and others who have been running learning circles in community centers, literacy centers and immigrant learning centers.</p>
@@ -102,7 +102,7 @@
     </section>
 
     <section id="lodging">
-      <div class="content">
+      <div class="content" data-aos="slide-up">
         <h2>Lodging</h2>
         <p>It’s up to you on where you stay! We are not planning on organizing pre-booked hotel rooms or discounted rooms. However, in the coming weeks we will be listing hotels nearby to the Main Branch that are recommended by Kansas City Public Library.</p>
         <p>Also, in case you were wondering, we didn’t end up finding a big monster mansion to host everyone. We really tried, but it didn’t seem feasible. Next time, we promise!</p>
@@ -110,7 +110,7 @@
     </section>
 
     <section id="registration">
-      <div class="content">
+      <div class="content" data-aos="slide-up">
         <h2>Registration</h2>
         <p>If you would like to attend, we would love to have you. Our only expectation is that those who attend will be able to actively contribute their experience and have an interest in the development of learning circles and P2PU.</p>
         <p>No big registration process necessary and no registration fees. Register by sending Nico a message at Nico@p2pu.org and confirm the names of those who will be attending. We’ll follow up with other details or questions that we might have for you.</p>
@@ -118,59 +118,59 @@
     </section>
 
     <section id="faq">
-      <div class="content">
+      <div class="content" data-aos="slide-up">
         <h2>FAQ</h2>
 
         <div class="faq-questions">
 
-            <div class="faq-container">
-                <div class="question">
-                    <h3>I’ve never run or supported a learning circle or P2PU before, can I still come?</h3>
-                </div>
-                <div class="answer">
-                    <p>Maybe. This is private event, but we’re open to those who are truly interested our collective work. Send Nico a message and let us know why you’re interested on coming (nico@p2pu.org)</p>
-                </div>
+          <div class="faq-container">
+            <div class="question">
+              <h3>I’ve never run or supported a learning circle or P2PU before, can I still come?</h3>
             </div>
-
-            <div class="faq-container">
-                <div class="question">
-                    <h3>Is there any way P2PU can help pay for me or my colleague come?</h3>
-                </div>
-                <div class="answer">
-                    <p>Don’t bet on it. We’ll looking into sponsors, but as of right now, there is no additional funding to help get you to Kansas City.</p>
-                </div>
-            </div>
-
-            <div class="faq-container">
-                <div class="question">
-                    <h3>How much does it cost to attend?</h3>
-                </div>
-                <div class="answer">
-                    <p>There are no fees to attend. Getting yourself to Kansas City and paying for accomodation and some food will be your main costs. We will be providing dinner, breakfast and lunch, so that should take the costs down a bit.</p>
-                </div>
-            </div>
-
-            <div class="faq-container">
-                <div class="question">
-                    <h3>Will we will be able to participate in the conference online?</h3>
-                </div>
-                <div class="answer">
-                    <p>No, we do not have any plans to connect our meeting with an online audience. We could imagine organizing a session that allows for greater input from those who are not able to attend, however the primary purpose of the event will be to support in-person discussion.</p>
-                </div>
-            </div>
-
-            <div class="faq-container">
-                <div class="question">
-                    <h3>Will the event be live streamed or recorded?</h3>
-                </div>
-                <div class="answer">
-                    <p>We plan to record as much as we can and share what we learned with everyone else, likely through photos, short videos, and a written summary. However, there won’t be hour long recorded lectures so that you can “learn online” at home, that’s not really our style.</p>
-                </div>
+            <div class="answer">
+              <p>Maybe. This is private event, but we’re open to those who are truly interested our collective work. Send Nico a message and let us know why you’re interested on coming (nico@p2pu.org)</p>
             </div>
           </div>
-        </section>
 
-    </div>
+          <div class="faq-container">
+            <div class="question">
+              <h3>Is there any way P2PU can help pay for me or my colleague come?</h3>
+            </div>
+            <div class="answer">
+              <p>Don’t bet on it. We’ll looking into sponsors, but as of right now, there is no additional funding to help get you to Kansas City.</p>
+            </div>
+          </div>
+
+          <div class="faq-container">
+            <div class="question">
+              <h3>How much does it cost to attend?</h3>
+            </div>
+            <div class="answer">
+              <p>There are no fees to attend. Getting yourself to Kansas City and paying for accomodation and some food will be your main costs. We will be providing dinner, breakfast and lunch, so that should take the costs down a bit.</p>
+            </div>
+          </div>
+
+          <div class="faq-container">
+            <div class="question">
+              <h3>Will we will be able to participate in the conference online?</h3>
+            </div>
+            <div class="answer">
+              <p>No, we do not have any plans to connect our meeting with an online audience. We could imagine organizing a session that allows for greater input from those who are not able to attend, however the primary purpose of the event will be to support in-person discussion.</p>
+            </div>
+          </div>
+
+          <div class="faq-container">
+            <div class="question">
+              <h3>Will the event be live streamed or recorded?</h3>
+            </div>
+            <div class="answer">
+              <p>We plan to record as much as we can and share what we learned with everyone else, likely through photos, short videos, and a written summary. However, there won’t be hour long recorded lectures so that you can “learn online” at home, that’s not really our style.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
 
     <footer class="home-footer" id="footer">
       <div class="row justify-content-between">
@@ -245,6 +245,11 @@
     </footer>
 
 
+    <!-- Bootstrap -->
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
 
     <!-- AOS -->
@@ -253,9 +258,11 @@
       AOS.init({
       });
     </script>
-<!--     <script type="text/javascript">
-      $('body').scrollspy({ target: '.navbar' })
-    </script> -->
-</body>
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+
+  </body>
 
 </html>

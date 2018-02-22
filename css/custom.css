@@ -48,6 +48,7 @@ body {
   font-size: 18px;
   color: #515665;
   position: relative;
+  padding-top: 64px; /*navbar height*/
 }
 
 
@@ -86,9 +87,20 @@ section:nth-of-type(2n) {
   text-align: center;
 }
 
+#top-nav {
+  background-color: #fff;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
 #details .itinerary {
   padding-top: 1rem;
   padding-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#details .itinerary > div {
+  padding: 1rem;
 }
 
 #details .date {
