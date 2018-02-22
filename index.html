@@ -21,7 +21,29 @@
     <meta name="theme-color" content="#008080">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar">
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img src="img/p2pu-logo.png" alt="P2PU logo">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Welcome <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Goals</a>
+          <a class="nav-item nav-link" href="#">Location & Details</a>
+          <a class="nav-item nav-link" href="#">Guest List</a>
+          <a class="nav-item nav-link" href="#">Lodging</a>
+          <a class="nav-item nav-link" href="#">Registration</a>
+          <a class="nav-item nav-link" href="#">FAQ</a>
+        </div>
+      </div>
+    </nav>
+
+
     <section id="intro">
       <div class="content">
         <h2>Hi there!</h2>
@@ -231,6 +253,9 @@
       AOS.init({
       });
     </script>
+<!--     <script type="text/javascript">
+      $('body').scrollspy({ target: '.navbar' })
+    </script> -->
 </body>
 
 </html>
