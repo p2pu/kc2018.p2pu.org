@@ -64,6 +64,15 @@ h3, h4, h5, h6 {
   font-size: 1.4rem;
 }
 
+a.bold {
+  font-family: 'Open Sans Bold', 'Helvetica', sans-serif;
+  color: #515665;
+}
+
+a:hover, a:focus, a:active {
+  color: #05C6B4;
+}
+
 section {
   padding: 3rem;
   display: flex;
@@ -429,4 +438,19 @@ header.page-title h1 {
   opacity: 0.8;
 }
 
+@keyframes pulse-grow {
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 
+.p2pu-btn:hover {
+  transform: perspective(1px) translateZ(0);
+  animation-name: pulse-grow;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
