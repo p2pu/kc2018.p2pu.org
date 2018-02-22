@@ -48,7 +48,7 @@ body {
   font-size: 18px;
   color: #515665;
   position: relative;
-  padding-top: 64px; /*navbar height*/
+  padding-top: 62px; /*navbar height*/
 }
 
 
@@ -85,6 +85,56 @@ section:nth-of-type(2n) {
   font-size: 0.8rem;
   text-transform: uppercase;
   text-align: center;
+}
+
+.lead {
+  font-size: 1.4rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#page-header {
+  background: url(../img/post-its.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+#page-header.jumbotron {
+  background-color: #fff;
+}
+
+#page-header .container {
+  background: rgba(255,255,255,0.7);
+  padding: 2rem;
+  display: flex;
+}
+
+#page-header .container .event-logo {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+#page-header .container .event-logo img {
+  height: 100%;
+}
+
+#page-header .container .event-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#page-header button.p2pu-btn {
+  font-size: 1rem;
 }
 
 #top-nav {
@@ -293,6 +343,7 @@ header.page-title h1 {
   font-weight: bolder;
   padding: 10px 20px;
   border: none;
+  cursor: pointer;
 
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
@@ -333,4 +384,14 @@ header.page-title h1 {
 .p2pu-btn.light:before {
   background: #fff;
 }
+
+.p2pu-btn.orange {
+  background: #FC7100;
+  color: #fff;
+}
+
+.p2pu-btn.orange:before {
+  opacity: 0.8;
+}
+
 
