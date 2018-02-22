@@ -34,9 +34,9 @@
         <ul class="nav navbar-nav">
           <a class="nav-item nav-link minicaps data-scroll" href="#intro">About</a>
           <a class="nav-item nav-link minicaps data-scroll" href="#goals">Goals</a>
-          <a class="nav-item nav-link minicaps data-scroll" href="#details">Location & Details</a>
-          <a class="nav-item nav-link minicaps data-scroll" href="#guest-list">Guest List</a>
+          <a class="nav-item nav-link minicaps data-scroll" href="#details">Location &amp; Details</a>
           <a class="nav-item nav-link minicaps data-scroll" href="#lodging">Lodging</a>
+          <a class="nav-item nav-link minicaps data-scroll" href="#guest-list">Guest List</a>
           <a class="nav-item nav-link minicaps data-scroll" href="#registration">Registration</a>
           <a class="nav-item nav-link minicaps data-scroll" href="#faq">FAQ</a>
         </ul>
@@ -103,19 +103,57 @@
       </div>
     </section>
 
-    <section id="guest-list">
-      <div class="content" data-aos="slide-up">
-        <h2>Guest List</h2>
-        <p>We welcome attendance from all learning circle practitioners, facilitators, P2PU friends and supporters, librarians and educators, and those committed to peer, community-based, equitable and open learning. Our aim is for this to be an intimate and interactive event that will host between 30 – 40 participants.</p>
-        <p>Confirmed attendance includes the entire P2PU Staff Nico, Dirk, and Grif (we live in three different countries – so this is a rare event!), learning circle facilitators and librarians from Chicago Public Library, Wichita Public Library, Tampa-Hillsborough Public Library, Twin City Public Library, Charlotte Mecklenburg Public Library, and of course let’s not forget Kansas City Public Library too. We also plan to host long-time P2PU advocates and others who have been running learning circles in community centers, literacy centers and immigrant learning centers.</p>
-      </div>
-    </section>
-
     <section id="lodging">
       <div class="content" data-aos="slide-up">
         <h2>Lodging</h2>
         <p>It’s up to you on where you stay! We are not planning on organizing pre-booked hotel rooms or discounted rooms. However, in the coming weeks we will be listing hotels nearby to the Main Branch that are recommended by Kansas City Public Library.</p>
         <p>Also, in case you were wondering, we didn’t end up finding a big monster mansion to host everyone. We really tried, but it didn’t seem feasible. Next time, we promise!</p>
+      </div>
+    </section>
+
+    <section id="guest-list">
+      <div class="content" data-aos="slide-up">
+        <h2>Guest List</h2>
+        <p>We welcome attendance from all learning circle practitioners, facilitators, P2PU friends and supporters, librarians and educators, and those committed to peer, community-based, equitable and open learning. Our aim is for this to be an intimate and interactive event that will host between 30 – 40 participants.</p>
+        <p>Confirmed attendance includes the entire P2PU Staff Nico, Dirk, and Grif (we live in three different countries – so this is a rare event!), learning circle facilitators and librarians from Chicago Public Library, Wichita Public Library, Tampa-Hillsborough Public Library, Twin City Public Library, Charlotte Mecklenburg Public Library, and of course let’s not forget Kansas City Public Library too. We also plan to host long-time P2PU advocates and others who have been running learning circles in community centers, literacy centers and immigrant learning centers.</p>
+
+        <div class="participants">
+            <div class="logo">
+              <a href="#" target="_blank">
+                <img src="img/logos/charlotte.png" alt="Charlotte Public Library" class="logo-img" />
+              </a>
+            </div>
+
+            <div class="logo">
+              <a href="#" target="_blank">
+                <img src="img/logos/chicago.jpg" alt="Chicago Public Library" class="logo-img" />
+              </a>
+            </div>
+
+            <div class="logo">
+              <a href="#" target="_blank">
+                <img src="img/logos/hillsborough-co.png" alt="Tampa-Hillsborough Public Library" class="logo-img" />
+              </a>
+            </div>
+
+            <div class="logo">
+              <a href="#" target="_blank">
+                <img src="img/logos/kansas-city.png" alt="Kansas City Public Library" class="logo-img" />
+              </a>
+            </div>
+
+            <div class="logo">
+              <a href="#" target="_blank">
+                <img src="img/logos/twin-lakes.png" alt="Twin Lakes Public Library" class="logo-img" />
+              </a>
+            </div>
+
+            <div class="logo">
+              <a href="#" target="_blank">
+                <img src="img/logos/wichita.png" alt="Wichita Public Library" class="logo-img" />
+              </a>
+            </div>
+        </div>
       </div>
     </section>
 
@@ -255,7 +293,7 @@
     </footer>
 
 
-    <!-- Bootstrap -->
+    <!-- Jquery & Bootstrap -->
 
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
@@ -268,6 +306,8 @@
       AOS.init({
       });
     </script>
+
+    <!-- Smooth Scroll -->
     <script src="js/smooth-scroll.polyfills.min.js"></script>
     <script>
       var scroll = new SmoothScroll('a[href*="#"]', { offset: 60 });
