@@ -54,6 +54,7 @@ body {
   color: #515665;
   position: relative;
   padding-top: 62px; /*navbar height*/
+  box-sizing: border-box;
 }
 
 
@@ -69,7 +70,7 @@ h3, h4, h5, h6 {
   font-size: 1.4rem;
 }
 
-a.bold {
+p a {
   font-family: 'Open Sans Bold', 'Helvetica', sans-serif;
   color: #515665;
 }
@@ -84,23 +85,19 @@ section {
   justify-content: center;
 }
 
-section:nth-of-type(2n) {
+section:nth-of-type(4n+1) {
   background-color: rgba(255,188,26,0.15);
 }
 
-section:nth-of-type(4n+2) {
-  background-color: rgba(255,188,26,0.15);
-}
-
-section:nth-of-type(4n+4) {
-  background-color: rgba(183,213,0,0.15);
-}
-
-section:nth-of-type(4n+6) {
+section:nth-of-type(4n+3) {
   background-color: rgba(5,198,180,0.15);
 }
 
-section:nth-of-type(4n+8) {
+section:nth-of-type(4n+5) {
+  background-color: rgba(183,213,0,0.15);
+}
+
+section:nth-of-type(4n+7) {
   background-color: rgba(252,113,0,0.15);
 }
 
@@ -138,6 +135,29 @@ header.page-title h1 {
   font-weight: bold;
 }
 
+.image {
+  position: relative;
+}
+
+.image img {
+  width: 100%;
+}
+
+.image .caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  padding: 5px 15px;
+  text-align: left;
+}
+
+.image .caption a {
+  color: #FCFCFC;
+}
+
 #top-nav.navbar-light .navbar-nav .nav-link {
   color: #707782;
 }
@@ -164,6 +184,7 @@ header.page-title h1 {
 
 #page-header.jumbotron {
   background-color: #fff;
+  margin-bottom: 0;
 }
 
 #page-header .container {
@@ -217,7 +238,6 @@ header.page-title h1 {
   font-size: 0.8rem;
   text-transform: uppercase;
   margin-bottom: 10px;
-  color: #05C6B4;
 }
 
 #guest-list .participants {
