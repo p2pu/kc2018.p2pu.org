@@ -135,8 +135,13 @@ header.page-title h1 {
   font-weight: bold;
 }
 
+.orange {
+  color: #FC7100;
+}
+
 .image {
   position: relative;
+  margin-bottom: 2rem;
 }
 
 .image img {
@@ -168,6 +173,11 @@ header.page-title h1 {
 
 #top-nav.navbar-light .navbar-nav .nav-link:active {
   color: #FC7100;
+}
+
+#top-nav.navbar-light .navbar-nav .p2pu-btn {
+  font-size: 0.8rem;
+  padding: 8px 16px
 }
 
 #page-header {
@@ -251,6 +261,12 @@ header.page-title h1 {
   filter: grayscale(1);
   width: 80px;
   margin: 10px;
+}
+
+#registration .cta {
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.4rem;
 }
 
 #faq .faq-container {
