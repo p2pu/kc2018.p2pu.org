@@ -53,11 +53,11 @@ No big registration process necessary and no registration fees. Register by send
  
 *I’ve never run or supported a learning circle or P2PU before, can I still come?*
 
-Maybe. This is private event, but we’re open to those who are truly interested our collective work. Send Nico a message and let us know why you’re interested on coming (nico@p2pu.org)
+Maybe. This is private event, but we’re open to those who are truly interested in our collective work. Send Nico a message and let us know why you’re interested in coming (nico@p2pu.org)
  
-*Is there any way P2PU can help pay for me or my colleague come?*
+*Is there any way P2PU can help pay for me or my colleague to come?*
 
-Don’t bet on it. We’ll looking into sponsors, but as of right now, there is no additional funding to help get you to Kansas City.
+Don’t bet on it. We’re looking into sponsors, but as of right now, there is no additional funding to help get you to Kansas City.
  
 *How much does it cost to attend?*
 
